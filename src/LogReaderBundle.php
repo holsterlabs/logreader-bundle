@@ -7,7 +7,7 @@ use Hl\LogReaderBundle\DependencyInjection\LogReaderExtension;
 
 /**
  * LogReaderBundle
- * v1
+ * v1.0.2
  */
 class LogReaderBundle extends Bundle
 {
