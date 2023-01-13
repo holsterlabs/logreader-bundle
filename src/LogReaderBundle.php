@@ -6,7 +6,8 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Hl\LogReaderBundle\DependencyInjection\HLogReaderExtension;
 
 /**
- * SecurityHeadersBundle
+ * LogReaderBundle
+ * v1
  */
 class LogReaderBundle extends Bundle
 {
