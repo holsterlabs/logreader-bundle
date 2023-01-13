@@ -1,9 +1,9 @@
 <?php
 
-namespace H_\LogReaderBundle\Parser;
+namespace Hl\LogReaderBundle\Parser;
 
-use H_\LogReaderBundle\Model\Logfile;
-use H_\LogReaderBundle\Parser\LogParserInterface;
+use Hl\LogReaderBundle\Model\Logfile;
+use Hl\LogReaderBundle\Parser\LogParserInterface;
 
 class LineLogParser implements LogParserInterface
 {

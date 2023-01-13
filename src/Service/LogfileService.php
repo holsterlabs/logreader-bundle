@@ -1,11 +1,10 @@
 <?php
 
-namespace H_\LogReaderBundle\Service;
+namespace Hl\LogReaderBundle\Service;
 
-use App\Model\Logfile as ModelLogfile;
+use Hl\LogReaderBundle\Model\Logfile as ModelLogfile;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
-use App\Models\Logfile;
 
 class LogfileService
 {

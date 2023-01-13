@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "H_\\LogReaderBundle\\": "src/"
+            "Hl\\LogReaderBundle\\": "src/"
         }
     },
     "license": "MIT",

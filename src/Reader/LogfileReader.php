@@ -1,10 +1,10 @@
 <?php
 
-namespace H_\LogReaderBundle\Reader;
+namespace Hl\LogReaderBundle\Reader;
 
-use H_\LogReaderBundle\Parser\LineLogParser;
-use H_\LogReaderBundle\Parser\LogParserInterface;
-use H_\LogReaderBundle\Model\Logfile;
+use Hl\LogReaderBundle\Parser\LineLogParser;
+use Hl\LogReaderBundle\Parser\LogParserInterface;
+use Hl\LogReaderBundle\Model\Logfile;
 
 class LogfileReader implements \Iterator, \ArrayAccess, \Countable
 {

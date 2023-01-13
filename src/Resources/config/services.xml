@@ -7,9 +7,9 @@
     <services>
         <defaults public="false" />
 
-        <service id="holsterlabs_log_reader.log_file_service" class="H_\LogReaderBundle\Service\LogfileService">
+        <service id="holsterlabs_log_reader.log_file_service" class="Hl\LogReaderBundle\Service\LogfileService">
             <argument type="service" id="parameter_bag" />
         </service>
-        <service id="H_\LogReaderBundle\Service\LogfileService" alias="holsterlabs_log_reader.log_file_service"/>
+        <service id="Hl\LogReaderBundle\Service\LogfileService" alias="holsterlabs_log_reader.log_file_service"/>
     </services>
 </container>

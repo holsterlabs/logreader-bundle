@@ -1,9 +1,9 @@
 <?php
 
-namespace H_\LogReaderBundle;
+namespace Hl\LogReaderBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
-use H_\LogReaderBundle\DependencyInjection\H_LogReaderExtension;
+use Hl\LogReaderBundle\DependencyInjection\HLogReaderExtension;
 
 /**
  * SecurityHeadersBundle
@@ -12,6 +12,6 @@ class LogReaderBundle extends Bundle
 {
     public function getContainerExtension(): ?ExtensionInterface
     {
-        return new H_LogReaderExtension();
+        return new HlLogReaderExtension();
     }
 }

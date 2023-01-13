@@ -1,13 +1,13 @@
 <?php
 
-namespace H_\LogReaderBundle\DependencyInjection;
+namespace Hl\LogReaderBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 
-class H_LogReaderExtension extends Extension
+class HlLogReaderExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $containerBuilder)
     {

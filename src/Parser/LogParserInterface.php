@@ -1,6 +1,6 @@
 <?php
 
-namespace H_\LogReaderBundle\Parser;
+namespace Hl\LogReaderBundle\Parser;
 
 interface LogParserInterface
 {

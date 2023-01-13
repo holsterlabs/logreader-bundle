@@ -1,6 +1,6 @@
 <?php
 
-namespace H_\LogReaderBundle\Model;
+namespace Hl\LogReaderBundle\Model;
 
 class Logfile
 {
