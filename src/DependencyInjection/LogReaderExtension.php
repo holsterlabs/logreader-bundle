@@ -19,9 +19,9 @@ class LogReaderExtension extends Extension
         );
         $loader->load('services.xml');
 
-        $configuration = $this->getConfiguration($configs, $containerBuilder);
-        $config = $this->processConfiguration($configuration, $configs);
+        // $configuration = $this->getConfiguration($configs, $containerBuilder);
+        // $config = $this->processConfiguration($configuration, $configs);
 
-        return $config;
+        // return $config;
     }
 }
