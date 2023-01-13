@@ -1,4 +1,0 @@
-services:
-    H_\LogReaderBundle\Service\LogfileService:
-        arguments:
-            $parameterBag: parameter_bag
