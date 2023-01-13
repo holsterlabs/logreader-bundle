@@ -7,7 +7,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 
-class HlLogReaderExtension extends Extension
+class LogReaderExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $containerBuilder)
     {
