@@ -30,7 +30,7 @@ class LogfileReader implements \Iterator, \ArrayAccess, \Countable
         $this->parser = new LineLogParser;
     }
 
-    public function current(): mixed
+    public function current()
     {
         return $this->parser->parse($this->file->current(), $this->logfile, $this->pattern);
     }
@@ -55,12 +55,12 @@ class LogfileReader implements \Iterator, \ArrayAccess, \Countable
         $this->file->rewind();
     }
 
-    public function offsetExists(mixed $offset): bool
+    public function offsetExists($offset): bool
     {
         return $this->lineCount < $offset;
     }
 
-    public function offsetGet(mixed $offset): mixed
+    public function offsetGet($offset): mixed
     {
         $key = $this->file->key();
         $this->file->seek($offset);
@@ -71,12 +71,12 @@ class LogfileReader implements \Iterator, \ArrayAccess, \Countable
         return $log;
     }
 
-    public function offsetSet(mixed $offset, mixed $value): void
+    public function offsetSet($offset, $value): void
     {
         throw new \RuntimeException("LogReader is read-only.");
     }
 
-    public function offsetUnset(mixed $offset): void
+    public function offsetUnset($offset): void
     {
         throw new \RuntimeException("LogReader is read-only.");
     }
