@@ -8,7 +8,7 @@ use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 
 /**
  * LogReaderBundle
- * v1.0.2
+ * v1.0.5
  */
 class LogReaderBundle extends Bundle
 {
