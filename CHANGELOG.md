@@ -2,6 +2,12 @@
 
 ## [Unreleased](https://github.com/holsterlabs/logreader-bundle/tree/HEAD)
 
+## [1.0.5](https://github.com/holsterlabs/logreader-bundle/compare/1.0.5...2.0.0) - 2023-02-09
+
+### Fixed
+
+-   Added PHP8 compatibility
+
 ## [1.0.5](https://github.com/holsterlabs/logreader-bundle/compare/1.0.4...1.0.5) - 2023-02-09
 
 ### Fixed
