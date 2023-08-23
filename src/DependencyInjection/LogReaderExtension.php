@@ -9,7 +9,7 @@ use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 
 class LogReaderExtension extends Extension
 {
-    public function load(array $configs, ContainerBuilder $containerBuilder)
+    public function load(array $configs, ContainerBuilder $containerBuilder): void
     {
         $loader = new XmlFileLoader(
             $containerBuilder,
