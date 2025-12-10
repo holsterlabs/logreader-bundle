@@ -5,19 +5,14 @@ namespace Hl\LogReaderBundle\DependencyInjection;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
-use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
+use Symfony\Component\DependencyInjection\Loader\PhpFileLoader;
 
 class LogReaderExtension extends Extension
 {
-    public function load(array $configs, ContainerBuilder $containerBuilder): void
+    public function load(array $configs, ContainerBuilder $container): void
     {
-        $loader = new XmlFileLoader(
-            $containerBuilder,
-            new FileLocator(
-                __DIR__ . '/../Resources/config'
-            )
-        );
-        $loader->load('services.xml');
+        $loader = new PhpFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
+        $loader->load('services.php');
 
         // $configuration = $this->getConfiguration($configs, $containerBuilder);
         // $config = $this->processConfiguration($configuration, $configs);
